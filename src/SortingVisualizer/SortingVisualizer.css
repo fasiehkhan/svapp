@@ -1,12 +1,72 @@
 .array-container {
     position: absolute;
-    left: 100px;
-    /* top: 100px; */
+    left: 420px;
+    top: 150px; 
   }
   
   .array-bar {
-    width: 2px;
+    width: 5px;
     display: inline-block;
     margin: 0 1px;
-  }
+    }
+
+    .genButton{
+      padding: 6px; background-color:beige;
+      border-radius:41px
+    }
+
+    .genButton:hover{
+      background-color: lightblue;
+    }
+
+    .mergeButton:hover{
+      background-color: lightblue;
+    }
+
+    .mergeButton{
+      padding: 6px; background-color:beige;
+      border-radius:41px; position: relative;left: 121px
+    }
+
+    @media only screen and (max-width: 480px){
+      
+      .array-container {
+        position: absolute;
+        left: 12px;
+        top: 180px; 
+      }
+      
+      .array-bar {
+        width: 5px;
+        display: inline-block;
+        margin: 0 1px;
+        }
+
+    }
+
+    @media only screen and (min-width: 700px){
+      
+      .array-container {
+        position: absolute;
+        left: 122px;
+        top: 180px; 
+      }
+      
+      .array-bar {
+        width: 5px;
+        display: inline-block;
+        margin: 0 1px;
+        }
+        .genButton{
+          padding: 6px; background-color:beige;
+          border-radius:41px
+        }
+    
+        .mergeButton{
+          padding: 6px; background-color:beige;
+          border-radius:41px; position: relative;left: 12px
+        }
+
+    }
+  
   
