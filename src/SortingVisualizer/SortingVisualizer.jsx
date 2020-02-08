@@ -59,21 +59,7 @@ export default class SortingVisualizer extends React.Component {
     }
   }
 
-  quickSort() {
-    // We leave it as an exercise to the viewer of this code to implement this method.
-  }
-
-  heapSort() {
-    // We leave it as an exercise to the viewer of this code to implement this method.
-  }
-
-  bubbleSort() {
-    // We leave it as an exercise to the viewer of this code to implement this method.
-  }
-
-  // NOTE: This method will only work if your sorting algorithms actually return
-  // the sorted arrays; if they return the animations (as they currently do), then
-  // this method will be broken.
+ 
   testSortingAlgorithms() {
     for (let i = 0; i < 100; i++) {
       const array = [];
@@ -114,7 +100,6 @@ export default class SortingVisualizer extends React.Component {
   }
 }
 
-// From https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript
 function randomIntFromInterval(min, max) {
   // min and max included
   return Math.floor(Math.random() * (max - min + 1) + min);
